@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Mar 27 00:52:57 2019
+# Process ID: 8636
+# Current directory: C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.runs/synth_1
+# Command line: vivado.exe -log toplevel.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source toplevel.tcl
+# Log file: C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.runs/synth_1/toplevel.vds
+# Journal file: C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source toplevel.tcl -notrace

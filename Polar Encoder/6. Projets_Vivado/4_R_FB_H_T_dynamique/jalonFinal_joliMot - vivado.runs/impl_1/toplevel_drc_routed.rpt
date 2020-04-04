@@ -1,0 +1,191 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Mar 27 01:02:29 2019
+| Host         : DESKTOP-7GAUGUL running 64-bit major release  (build 9200)
+| Command      : report_drc -file toplevel_drc_routed.rpt -pb toplevel_drc_routed.pb -rpx toplevel_drc_routed.rpx
+| Design       : toplevel
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 31
++----------+----------+-------------------+------------+
+| Rule     | Severity | Description       | Violations |
++----------+----------+-------------------+------------+
+| PDRC-153 | Warning  | Gated clock check | 31         |
++----------+----------+-------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net L_UART_RX/SlogM_reg[3]_5 is a gated clock net sourced by a combinational pin L_UART_RX/k_reg[0]_LDC_i_1/O, cell L_UART_RX/k_reg[0]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_31 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[30]_LDC_i_1/O, cell Lcontrole/k_reg[30]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#3 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_32 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[29]_LDC_i_1/O, cell Lcontrole/k_reg[29]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#4 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_33 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[28]_LDC_i_1/O, cell Lcontrole/k_reg[28]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#5 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_34 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[27]_LDC_i_1/O, cell Lcontrole/k_reg[27]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#6 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_35 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[26]_LDC_i_1/O, cell Lcontrole/k_reg[26]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#7 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_36 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[25]_LDC_i_1/O, cell Lcontrole/k_reg[25]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#8 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_37 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[24]_LDC_i_1/O, cell Lcontrole/k_reg[24]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#9 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_38 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[23]_LDC_i_1/O, cell Lcontrole/k_reg[23]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#10 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_39 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[22]_LDC_i_1/O, cell Lcontrole/k_reg[22]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#11 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_40 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[21]_LDC_i_1/O, cell Lcontrole/k_reg[21]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#12 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_41 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[20]_LDC_i_1/O, cell Lcontrole/k_reg[20]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#13 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_42 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[19]_LDC_i_1/O, cell Lcontrole/k_reg[19]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#14 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_43 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[18]_LDC_i_1/O, cell Lcontrole/k_reg[18]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#15 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_44 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[17]_LDC_i_1/O, cell Lcontrole/k_reg[17]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#16 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_45 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[16]_LDC_i_1/O, cell Lcontrole/k_reg[16]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#17 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_46 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[15]_LDC_i_1/O, cell Lcontrole/k_reg[15]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#18 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_47 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[14]_LDC_i_1/O, cell Lcontrole/k_reg[14]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#19 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_48 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[13]_LDC_i_1/O, cell Lcontrole/k_reg[13]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#20 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_49 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[12]_LDC_i_1/O, cell Lcontrole/k_reg[12]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#21 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_50 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[11]_LDC_i_1/O, cell Lcontrole/k_reg[11]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#22 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_51 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[10]_LDC_i_1/O, cell Lcontrole/k_reg[10]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#23 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_52 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[9]_LDC_i_1/O, cell Lcontrole/k_reg[9]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#24 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_53 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[8]_LDC_i_1/O, cell Lcontrole/k_reg[8]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#25 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_54 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[7]_LDC_i_1/O, cell Lcontrole/k_reg[7]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#26 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_55 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[6]_LDC_i_1/O, cell Lcontrole/k_reg[6]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#27 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_56 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[5]_LDC_i_1/O, cell Lcontrole/k_reg[5]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#28 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_57 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[4]_LDC_i_1/O, cell Lcontrole/k_reg[4]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#29 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_58 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[3]_LDC_i_1/O, cell Lcontrole/k_reg[3]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#30 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_59 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[2]_LDC_i_1/O, cell Lcontrole/k_reg[2]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#31 Warning
+Gated clock check  
+Net Lcontrole/reset_fbits_reg_60 is a gated clock net sourced by a combinational pin Lcontrole/k_reg[1]_LDC_i_1/O, cell Lcontrole/k_reg[1]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+

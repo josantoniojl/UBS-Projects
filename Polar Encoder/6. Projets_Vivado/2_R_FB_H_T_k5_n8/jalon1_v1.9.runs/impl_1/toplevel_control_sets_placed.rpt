@@ -1,0 +1,107 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Mar  7 20:47:38 2019
+| Host         : LAPTOP-VKIB3AB9 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file toplevel_control_sets_placed.rpt
+| Design       : toplevel
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    39 |
+| Unused register locations in slices containing registers |   200 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |           26 |
+|      7 |            2 |
+|      8 |            1 |
+|     14 |            2 |
+|    16+ |            8 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              20 |            8 |
+| No           | No                    | Yes                    |              36 |           24 |
+| No           | Yes                   | No                     |               8 |            8 |
+| Yes          | No                    | No                     |              31 |           12 |
+| Yes          | No                    | Yes                    |             203 |           53 |
+| Yes          | Yes                   | No                     |              14 |            4 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+----------------------------------------+-----------------------------+------------------+----------------+
+|         Clock Signal         |              Enable Signal             |       Set/Reset Signal      | Slice Load Count | Bel Load Count |
++------------------------------+----------------------------------------+-----------------------------+------------------+----------------+
+|  Lcontrole/resetFbits_reg_4  |                                        | Lcontrole/resetFbits_reg_5  |                1 |              1 |
+|  clk_IBUF_BUFG               |                                        | Lcontrole/resetFbits_reg_1  |                1 |              1 |
+|  clk_IBUF_BUFG               |                                        | Lcontrole/resetFbits_reg_9  |                1 |              1 |
+|  clk_IBUF_BUFG               | Lencodage/FSM_onehot_setat_reg_n_2_[4] | Lcontrole/resetFbits_reg_14 |                1 |              1 |
+|  clk_IBUF_BUFG               |                                        | Lcontrole/resetFbits_reg_5  |                1 |              1 |
+|  clk_IBUF_BUFG               |                                        | Lcontrole/resetFbits_reg_11 |                1 |              1 |
+|  clk_IBUF_BUFG               |                                        | Lcontrole/resetFbits_reg_3  |                1 |              1 |
+|  clk_IBUF_BUFG               |                                        | Lcontrole/resetFbits_reg_7  |                1 |              1 |
+|  clk_IBUF_BUFG               |                                        | Lcontrole/resetFbits_reg_15 |                1 |              1 |
+|  clk_IBUF_BUFG               |                                        | Lcontrole/resetFbits_reg_13 |                1 |              1 |
+|  clk_IBUF_BUFG               | Lencodage/FSM_onehot_setat_reg_n_2_[4] | Lcontrole/resetFbits_reg_10 |                1 |              1 |
+|  clk_IBUF_BUFG               | Lencodage/FSM_onehot_setat_reg_n_2_[4] | Lcontrole/resetFbits_reg_8  |                1 |              1 |
+|  clk_IBUF_BUFG               | transmit/o_TX_Serial_i_1_n_2           |                             |                1 |              1 |
+|  clk_IBUF_BUFG               | Lcontrole/Startreception               |                             |                1 |              1 |
+|  clk_IBUF_BUFG               | Lencodage/FSM_onehot_setat_reg_n_2_[4] | Lcontrole/resetFbits_reg_2  |                1 |              1 |
+|  clk_IBUF_BUFG               | Lencodage/FSM_onehot_setat_reg_n_2_[4] | Lcontrole/resetFbits_reg_12 |                1 |              1 |
+|  clk_IBUF_BUFG               | Lencodage/FSM_onehot_setat_reg_n_2_[4] | Lcontrole/resetFbits_reg_6  |                1 |              1 |
+|  clk_IBUF_BUFG               | Lencodage/FSM_onehot_setat_reg_n_2_[4] | Lcontrole/resetFbits_reg_0  |                1 |              1 |
+|  clk_IBUF_BUFG               | Lencodage/FSM_onehot_setat_reg_n_2_[4] | Lcontrole/resetFbits_reg_4  |                1 |              1 |
+|  Lcontrole/resetFbits_reg_8  |                                        | Lcontrole/resetFbits_reg_9  |                1 |              1 |
+|  Lcontrole/resetFbits_reg_10 |                                        | Lcontrole/resetFbits_reg_11 |                1 |              1 |
+|  Lcontrole/resetFbits_reg_14 |                                        | Lcontrole/resetFbits_reg_15 |                1 |              1 |
+|  Lcontrole/resetFbits_reg_2  |                                        | Lcontrole/resetFbits_reg_3  |                1 |              1 |
+|  Lcontrole/resetFbits_reg_12 |                                        | Lcontrole/resetFbits_reg_13 |                1 |              1 |
+|  Lcontrole/resetFbits_reg_6  |                                        | Lcontrole/resetFbits_reg_7  |                1 |              1 |
+|  Lcontrole/resetFbits_reg_0  |                                        | Lcontrole/resetFbits_reg_1  |                1 |              1 |
+|  clk_IBUF_BUFG               |                                        | btn0_IBUF                   |                2 |              7 |
+|  clk_IBUF_BUFG               | Lcontrole/E[0]                         |                             |                3 |              7 |
+|  clk_IBUF_BUFG               | transmit/r_TX_Data_0                   |                             |                1 |              8 |
+|  clk_IBUF_BUFG               | transmit/r_Clk_Count                   | transmit/r_Clk_Count0       |                4 |             14 |
+|  clk_IBUF_BUFG               | reception/r_Clk_Count                  |                             |                6 |             14 |
+|  clk_IBUF_BUFG               |                                        |                             |                8 |             20 |
+|  clk_IBUF_BUFG               |                                        | Lcontrole/reset             |               14 |             21 |
+|  clk_IBUF_BUFG               | Lencodage/n[31]_i_1_n_2                | Lcontrole/reset             |               11 |             32 |
+|  clk_IBUF_BUFG               | Lencodage/i[31]_i_1_n_2                | Lcontrole/reset             |                5 |             32 |
+|  clk_IBUF_BUFG               | Lfbits/j_0                             | Lcontrole/reset             |                7 |             32 |
+|  clk_IBUF_BUFG               | Lfbits/i_1                             | Lcontrole/reset             |                5 |             32 |
+|  clk_IBUF_BUFG               | Lencodage/j[31]_i_1_n_2                | Lcontrole/reset             |                9 |             32 |
+|  clk_IBUF_BUFG               | Lencodage/kd[31]_i_1_n_2               | Lcontrole/reset             |                8 |             35 |
++------------------------------+----------------------------------------+-----------------------------+------------------+----------------+
+
+

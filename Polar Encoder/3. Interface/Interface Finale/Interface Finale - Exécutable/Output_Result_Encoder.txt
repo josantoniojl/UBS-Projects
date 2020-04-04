@@ -1,0 +1,19 @@
+Paramètres de codage : 
+
+N = 8
+K = 5
+
+Message originel : 
+
+a
+
+
+Message envoyé à l'encodeur :
+
+ J'ai recu : 1000 -------> N = 8
+ J'ai recu : 0
+ J'ai recu : 101 --------> K = 5
+ J'ai recu : 0
+ J'ai recu : 11 ---------> Log2(N) = 3
+ J'ai recu : 0
+ J'ai recu : 1100001 ----> Donnée ici 'a'

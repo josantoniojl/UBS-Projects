@@ -1,0 +1,1 @@
+-wto "4bd0a14d13674bd097ca5993ac65cda2" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "polarEncoder_behav" "xil_defaultlib.polarEncoder" -log "elaborate.log" 

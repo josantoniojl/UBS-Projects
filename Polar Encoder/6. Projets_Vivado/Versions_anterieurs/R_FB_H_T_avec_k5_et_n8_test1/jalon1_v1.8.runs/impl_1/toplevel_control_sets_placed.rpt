@@ -1,0 +1,82 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Mar  2 15:50:36 2019
+| Host         : LAPTOP-VKIB3AB9 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file toplevel_control_sets_placed.rpt
+| Design       : toplevel
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    12 |
+| Unused register locations in slices containing registers |    42 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|      2 |            1 |
+|      4 |            1 |
+|      7 |            1 |
+|     10 |            1 |
+|     14 |            1 |
+|    16+ |            5 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              16 |            8 |
+| No           | No                    | Yes                    |              37 |           12 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              26 |            9 |
+| Yes          | No                    | Yes                    |              87 |           21 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------+--------------------------------------+------------------+------------------+----------------+
+|     Clock Signal     |             Enable Signal            | Set/Reset Signal | Slice Load Count | Bel Load Count |
++----------------------+--------------------------------------+------------------+------------------+----------------+
+|  clk_debug_OBUF_BUFG | reception/r_RX_DV                    |                  |                1 |              1 |
+|  clk_debug_OBUF_BUFG | Lcontrole/button_debug_OBUF          |                  |                1 |              1 |
+|  clk_debug_OBUF_BUFG | transmit/TxD_i_1_n_1                 | Lcontrole/reset  |                1 |              2 |
+|  clk_debug_OBUF_BUFG | transmit/bitcounter                  | Lcontrole/reset  |                1 |              4 |
+|  clk_debug_OBUF_BUFG |                                      | btn0_IBUF        |                2 |              7 |
+|  clk_debug_OBUF_BUFG | transmit/rightshiftsignal[9]_i_1_n_1 |                  |                2 |             10 |
+|  clk_debug_OBUF_BUFG | reception/r_Clk_Count                |                  |                5 |             14 |
+|  clk_debug_OBUF_BUFG |                                      |                  |                8 |             16 |
+|  clk_debug_OBUF_BUFG | Lcontrole/E[0]                       | Lcontrole/reset  |                5 |             17 |
+|  clk_debug_OBUF_BUFG |                                      | Lcontrole/reset  |               10 |             30 |
+|  clk_debug_OBUF_BUFG | Lfbits/i_0                           | Lcontrole/reset  |                8 |             32 |
+|  clk_debug_OBUF_BUFG | Lfbits/j_1                           | Lcontrole/reset  |                6 |             32 |
++----------------------+--------------------------------------+------------------+------------------+----------------+
+
+

@@ -1,0 +1,223 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Mar  3 19:10:09 2019
+# Process ID: 11772
+# Current directory: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12708 D:\Documents\fac\M1\_semestre2\projet conception\jalon1_v1.8\jalon1_v1.8.xpr
+# Log file: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/vivado.log
+# Journal file: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 704.895 ; gain = 117.918
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar  3 19:16:36 2019] Launched synth_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/synth_1/runme.log
+[Sun Mar  3 19:16:36 2019] Launched impl_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A4D8A7A
+set_property PROGRAM.FILE {D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/toplevel.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/toplevel.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Mar  3 19:21:43 2019] Launched synth_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sun Mar  3 19:22:36 2019] Launched impl_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar  3 19:24:21 2019] Launched impl_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/toplevel.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar  3 19:35:24 2019] Launched impl_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Mar  3 19:37:43 2019] Launched synth_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Mar  3 19:38:37 2019] Launched synth_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sun Mar  3 19:39:34 2019] Launched impl_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar  3 19:41:14 2019] Launched impl_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/toplevel.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar  3 19:48:24 2019] Launched synth_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/synth_1/runme.log
+[Sun Mar  3 19:48:24 2019] Launched impl_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/toplevel.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A4D8A7A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A4D8A7A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar  3 19:59:23 2019] Launched synth_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/synth_1/runme.log
+[Sun Mar  3 19:59:23 2019] Launched impl_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/toplevel.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/toplevel.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar  3 20:05:57 2019] Launched synth_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/synth_1/runme.log
+[Sun Mar  3 20:05:57 2019] Launched impl_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/toplevel.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Mar  3 20:20:51 2019] Launched synth_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sun Mar  3 20:21:49 2019] Launched impl_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar  3 20:23:27 2019] Launched impl_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/toplevel.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar  3 20:25:40 2019] Launched synth_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/synth_1/runme.log
+[Sun Mar  3 20:25:40 2019] Launched impl_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/toplevel.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Mar  3 20:36:08 2019] Launched synth_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sun Mar  3 20:36:56 2019] Launched impl_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar  3 20:38:26 2019] Launched impl_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/toplevel.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Mar  3 20:43:14 2019] Launched synth_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sun Mar  3 20:44:06 2019] Launched impl_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar  3 20:45:45 2019] Launched impl_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/toplevel.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar  3 20:49:41 2019] Launched synth_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/synth_1/runme.log
+[Sun Mar  3 20:49:41 2019] Launched impl_1...
+Run output will be captured here: D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Documents/fac/M1/_semestre2/projet conception/jalon1_v1.8/jalon1_v1.8.runs/impl_1/toplevel.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Mar  3 20:58:10 2019...

@@ -1,0 +1,234 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Mar 27 00:59:57 2019
+| Host         : DESKTOP-7GAUGUL running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file toplevel_control_sets_placed.rpt
+| Design       : toplevel
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   159 |
+| Unused register locations in slices containing registers |   760 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |           96 |
+|      2 |            1 |
+|      4 |            1 |
+|      6 |            2 |
+|      7 |            4 |
+|      8 |           32 |
+|      9 |            5 |
+|     10 |            1 |
+|     13 |            1 |
+|     14 |            1 |
+|     15 |            1 |
+|    16+ |           14 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              40 |           28 |
+| No           | No                    | Yes                    |             317 |          144 |
+| No           | Yes                   | No                     |              31 |           31 |
+| Yes          | No                    | No                     |              79 |           36 |
+| Yes          | No                    | Yes                    |             488 |          165 |
+| Yes          | Yes                   | No                     |             133 |           39 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------+---------------------------------------+------------------------------------+------------------+----------------+
+|          Clock Signal         |             Enable Signal             |          Set/Reset Signal          | Slice Load Count | Bel Load Count |
++-------------------------------+---------------------------------------+------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_22       |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_42 |                                       | Lcontrole/reset_fbits_reg_11       |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_37 |                                       | Lcontrole/reset_fbits_reg_6        |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_47 |                                       | Lcontrole/reset_fbits_reg_16       |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_48 |                                       | Lcontrole/reset_fbits_reg_17       |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_49 |                                       | Lcontrole/reset_fbits_reg_18       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | L_UART_RX/reset_fbits_reg          |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_19       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_14       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_24       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_27       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_29       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_16       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_3        |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_1        |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_12       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_2        |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_26       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_28       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_60       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_20       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_21       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_4        |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_25       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_23       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_11       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_0        |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_15       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_10       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_13       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_18       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_17       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_8        |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_5        |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_6        |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_7        |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_fbits_reg_9        |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_52 |                                       | Lcontrole/reset_fbits_reg_21       |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_53 |                                       | Lcontrole/reset_fbits_reg_22       |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_58 |                                       | Lcontrole/reset_fbits_reg_27       |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_46 |                                       | Lcontrole/reset_fbits_reg_15       |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_56 |                                       | Lcontrole/reset_fbits_reg_25       |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_55 |                                       | Lcontrole/reset_fbits_reg_24       |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_51 |                                       | Lcontrole/reset_fbits_reg_20       |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_50 |                                       | Lcontrole/reset_fbits_reg_19       |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_59 |                                       | Lcontrole/reset_fbits_reg_28       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_UART_TX/TxD_i_1_n_0                 |                                    |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_54 |                                       | Lcontrole/reset_fbits_reg_23       |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_57 |                                       | Lcontrole/reset_fbits_reg_26       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | L_UART_RX/SlogM_reg[3]_5           |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_33       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_34       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_35       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_31       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_36       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_32       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_38       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_40       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_41       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_43       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_44       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_39       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_45       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_42       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_37       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_47       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_48       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_49       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_52       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_53       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_58       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_46       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_56       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_55       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_51       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_50       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_59       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_54       |                1 |              1 |
+|  clk_IBUF_BUFG                | L_Hadamard/k[30]_P_i_1_n_0            | Lcontrole/reset_fbits_reg_57       |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_60 |                                       | Lcontrole/reset_fbits_reg_29       |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_44 |                                       | Lcontrole/reset_fbits_reg_13       |                1 |              1 |
+|  clk_IBUF_BUFG                | Lcontrole/start_reception             |                                    |                1 |              1 |
+| ~L_Hadamard/debutProcess      |                                       |                                    |                1 |              1 |
+|  L_UART_RX/SlogM_reg[3]_5     |                                       | L_UART_RX/reset_fbits_reg          |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_33 |                                       | Lcontrole/reset_fbits_reg_2        |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_34 |                                       | Lcontrole/reset_fbits_reg_3        |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_35 |                                       | Lcontrole/reset_fbits_reg_4        |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_31 |                                       | Lcontrole/reset_fbits_reg_0        |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_36 |                                       | Lcontrole/reset_fbits_reg_5        |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_32 |                                       | Lcontrole/reset_fbits_reg_1        |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_38 |                                       | Lcontrole/reset_fbits_reg_7        |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_40 |                                       | Lcontrole/reset_fbits_reg_9        |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_41 |                                       | Lcontrole/reset_fbits_reg_10       |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_43 |                                       | Lcontrole/reset_fbits_reg_12       |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_39 |                                       | Lcontrole/reset_fbits_reg_8        |                1 |              1 |
+|  Lcontrole/reset_fbits_reg_45 |                                       | Lcontrole/reset_fbits_reg_14       |                1 |              1 |
+|  clk_IBUF_BUFG                |                                       | L_Fbits/reset_enc                  |                1 |              2 |
+|  clk_IBUF_BUFG                | L_UART_RX/r_Clk_Count[13]_i_2_n_0     |                                    |                2 |              4 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep[8]_i_1_n_0        |                                    |                2 |              6 |
+|  clk_IBUF_BUFG                | L_UART_RX/stop[5]_i_2_n_0             | L_UART_RX/stop[5]_i_1_n_0          |                2 |              6 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[5]_6          | btn0_IBUF                          |                1 |              7 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[8]_15         | btn0_IBUF                          |                2 |              7 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[8]_0          | btn0_IBUF                          |                4 |              7 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[8]_10         | btn0_IBUF                          |                1 |              7 |
+|  clk_IBUF_BUFG                | L_Fbits/colonne0                      | L_Fbits/Scolonne[7]_i_1_n_0        |                3 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[5]_1          | btn0_IBUF                          |                4 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[5]_8          | btn0_IBUF                          |                2 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[5]_3          | btn0_IBUF                          |                3 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[6]_1          | btn0_IBUF                          |                2 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[6]_2          | btn0_IBUF                          |                1 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[5]_2          | btn0_IBUF                          |                2 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[7]_0          | btn0_IBUF                          |                3 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[8]_1          | btn0_IBUF                          |                3 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[8]_11         | btn0_IBUF                          |                2 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[8]_14         | btn0_IBUF                          |                3 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[8]_2          | btn0_IBUF                          |                3 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[6]_3          | btn0_IBUF                          |                3 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[8]_13         | btn0_IBUF                          |                3 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[8]_3          | btn0_IBUF                          |                2 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[8]_12         | btn0_IBUF                          |                3 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[8]_7          | btn0_IBUF                          |                4 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[8]_5          | btn0_IBUF                          |                2 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[8]_9          | btn0_IBUF                          |                2 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[8]_6          | btn0_IBUF                          |                3 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[8]_8          | btn0_IBUF                          |                1 |              8 |
+|  clk_IBUF_BUFG                | L_UART_TX/r_TX_Data[7]_i_1_n_0        |                                    |                3 |              8 |
+|  clk_IBUF_BUFG                | L_UART_TX/E[0]                        |                                    |                5 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[5]_7          | btn0_IBUF                          |                3 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/SlogM[7]_i_1_n_0            |                                    |                3 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[5]_9          | btn0_IBUF                          |                2 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[8]_4          | btn0_IBUF                          |                2 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[5]_10         | btn0_IBUF                          |                3 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[5]_0          | btn0_IBUF                          |                4 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[5]_5          | btn0_IBUF                          |                4 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[6]_0          | btn0_IBUF                          |                2 |              8 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep_reg[5]_4          | btn0_IBUF                          |                2 |              8 |
+|  clk_IBUF_BUFG                | L_Fbits/SraddLRAM[8]_i_1_n_0          | Lcontrole/reset_hadamard           |                3 |              9 |
+|  clk_IBUF_BUFG                | L_UART_RX/Sn[8]_i_1_n_0               |                                    |                4 |              9 |
+|  clk_IBUF_BUFG                | L_Fbits/SaddERAM[8]_i_1_n_0           | Lcontrole/reset_hadamard           |                3 |              9 |
+|  clk_IBUF_BUFG                | L_UART_RX/stop[5]_i_2_n_0             |                                    |                5 |              9 |
+|  clk_IBUF_BUFG                | L_UART_RX/r_Clk_Count[13]_i_2_n_0     | L_UART_RX/r_Clk_Count[13]_i_1_n_0  |                6 |              9 |
+|  clk_IBUF_BUFG                | L_Hadamard/w_addr_enc_H0              |                                    |                5 |             10 |
+|  clk_IBUF_BUFG                |                                       | btn0_IBUF                          |                8 |             13 |
+|  clk_IBUF_BUFG                | L_UART_TX/r_Clk_Count[0]_i_1_n_0      | L_UART_TX/Sadd_transmit[8]_i_1_n_0 |                4 |             14 |
+|  clk_IBUF_BUFG                | L_UART_TX/Sadd_transmit[8]_i_1_n_0    |                                    |                5 |             15 |
+|  clk_IBUF_BUFG                |                                       | Lcontrole/reset_hadamard           |                9 |             16 |
+|  clk_IBUF_BUFG                | L_Hadamard/r_addr_enc_H1[8]_i_1_n_0   | Lcontrole/reset_fbits_reg_30       |                5 |             18 |
+|  clk_IBUF_BUFG                | L_Fbits/i[31]_i_1__0_n_0              | Lcontrole/reset_hadamard           |                6 |             32 |
+|  clk_IBUF_BUFG                | L_Hadamard/i[31]_i_1_n_0              | Lcontrole/reset_hadamard           |                6 |             32 |
+|  clk_IBUF_BUFG                | L_Hadamard/j[30]_i_1_n_0              | Lcontrole/reset_hadamard           |               13 |             32 |
+|  clk_IBUF_BUFG                | L_UART_RX/add_recep[8]_i_1_n_0        | L_UART_RX/stop[5]_i_1_n_0          |                8 |             32 |
+|  clk_IBUF_BUFG                | L_UART_RX/compteur_general[0]_i_1_n_0 | L_UART_RX/stop[5]_i_1_n_0          |                8 |             32 |
+|  clk_IBUF_BUFG                | L_UART_TX/vcompteur[0]_i_2_n_0        | L_UART_TX/vcompteur[0]_i_1_n_0     |                8 |             32 |
+|  clk_IBUF_BUFG                | L_Hadamard/n[31]_i_1_n_0              | Lcontrole/reset_hadamard           |               10 |             32 |
+|  clk_IBUF_BUFG                |                                       |                                    |               27 |             39 |
+|  clk_IBUF_BUFG                | L_Fbits/j[31]_i_1_n_0                 | Lcontrole/reset_hadamard           |                7 |             41 |
+|  clk_IBUF_BUFG                |                                       | L_Fbits/Sreset_reg_rep__1_0        |               33 |             85 |
+|  clk_IBUF_BUFG                |                                       | L_Fbits/Sreset_reg_rep__0_0        |               29 |             85 |
+|  clk_IBUF_BUFG                |                                       | L_Fbits/Sreset_reg_rep_0           |               33 |             85 |
++-------------------------------+---------------------------------------+------------------------------------+------------------+----------------+
+
+

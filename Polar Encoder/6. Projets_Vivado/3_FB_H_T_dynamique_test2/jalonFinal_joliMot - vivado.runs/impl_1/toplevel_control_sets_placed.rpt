@@ -1,0 +1,96 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Mar 25 14:22:24 2019
+| Host         : LAPTOP-VKIB3AB9 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file toplevel_control_sets_placed.rpt
+| Design       : toplevel
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    25 |
+| Unused register locations in slices containing registers |    72 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|      2 |            1 |
+|      8 |            4 |
+|      9 |            2 |
+|     10 |            2 |
+|     14 |            1 |
+|     15 |            2 |
+|    16+ |           11 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              16 |           11 |
+| No           | No                    | Yes                    |             280 |           94 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              45 |           22 |
+| Yes          | No                    | Yes                    |             237 |           54 |
+| Yes          | Yes                   | No                     |              46 |           12 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------+-------------------------------------+-----------------------------+------------------+----------------+
+|       Clock Signal       |            Enable Signal            |       Set/Reset Signal      | Slice Load Count | Bel Load Count |
++--------------------------+-------------------------------------+-----------------------------+------------------+----------------+
+| ~L_Hadamard/debutProcess |                                     |                             |                1 |              1 |
+|  clk_IBUF_BUFG           | L_UART_TX/TxD_i_1_n_0               |                             |                1 |              1 |
+|  clk_IBUF_BUFG           |                                     | L_Fbits/reset_enc           |                2 |              2 |
+|  clk_IBUF_BUFG           |                                     | btn0_IBUF                   |                4 |              8 |
+|  clk_IBUF_BUFG           | L_UART_TX/r_TX_Data[7]_i_1_n_0      |                             |                3 |              8 |
+|  clk_IBUF_BUFG           | L_UART_TX/E[0]                      |                             |                4 |              8 |
+|  clk_IBUF_BUFG           | L_Fbits/Scolonne[7]_i_1_n_0         |                             |                2 |              8 |
+|  clk_IBUF_BUFG           | L_Fbits/SaddERAM[8]_i_1_n_0         | Lcontrole/reset_hadamard    |                2 |              9 |
+|  clk_IBUF_BUFG           | L_Fbits/SraddLRAM[8]_i_1_n_0        | Lcontrole/reset_hadamard    |                3 |              9 |
+|  clk_IBUF_BUFG           | L_Hadamard/w_addr_enc_H0            |                             |                6 |             10 |
+|  clk_IBUF_BUFG           | L_UART_TX/r_Bit_Index               |                             |                6 |             10 |
+|  clk_IBUF_BUFG           | L_UART_TX/r_Clk_Count[0]_i_1_n_0    | L_UART_TX/r_Bit_Index       |                4 |             14 |
+|  clk_IBUF_BUFG           |                                     |                             |               10 |             15 |
+|  clk_IBUF_BUFG           |                                     | Lcontrole/reset_hadamard    |                7 |             15 |
+|  clk_IBUF_BUFG           | L_Hadamard/r_addr_enc_H1[8]_i_1_n_0 | Lcontrole/reset_fbits_reg_0 |                8 |             18 |
+|  clk_IBUF_BUFG           | L_Hadamard/j[30]_i_1_n_0            | Lcontrole/reset_hadamard    |                6 |             32 |
+|  clk_IBUF_BUFG           | L_Hadamard/k[31]_i_1_n_0            | Lcontrole/reset_hadamard    |                6 |             32 |
+|  clk_IBUF_BUFG           | L_Hadamard/n[31]_i_1_n_0            | Lcontrole/reset_hadamard    |               10 |             32 |
+|  clk_IBUF_BUFG           | L_UART_TX/vcompteur[0]_i_2_n_0      | L_UART_TX/vcompteur         |                8 |             32 |
+|  clk_IBUF_BUFG           | L_Hadamard/i[31]_i_1_n_0            | Lcontrole/reset_hadamard    |                6 |             32 |
+|  clk_IBUF_BUFG           | L_Fbits/i[31]_i_1__0_n_0            | Lcontrole/reset_hadamard    |                5 |             32 |
+|  clk_IBUF_BUFG           | L_Fbits/j[31]_i_1_n_0               | Lcontrole/reset_hadamard    |                8 |             41 |
+|  clk_IBUF_BUFG           |                                     | L_Fbits/Sreset_reg_rep_0    |               27 |             85 |
+|  clk_IBUF_BUFG           |                                     | L_Fbits/Sreset_reg_rep__0_0 |               26 |             85 |
+|  clk_IBUF_BUFG           |                                     | L_Fbits/Sreset_reg_rep__1_0 |               28 |             85 |
++--------------------------+-------------------------------------+-----------------------------+------------------+----------------+
+
+

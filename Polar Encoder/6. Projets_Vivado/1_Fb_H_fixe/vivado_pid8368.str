@@ -1,0 +1,144 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 8368
+License: Customer
+
+Current time: 	Wed Feb 13 11:42:50 CET 2019
+Time zone: 	Central European Standard Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 39 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Jose_Antonio
+User home directory: C:/Users/Jose Antonio
+User working directory: C:/Users/Jose Antonio/Google Drive/UBS/S2/VHDL/Projet VHDL Polar Encoder/Vivado/jalon_1
+User country: 	FR
+User language: 	fr
+User locale: 	fr_FR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.3
+RDI_DATADIR: C:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/Jose Antonio/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/Jose Antonio/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/Jose Antonio/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Jose Antonio/Google Drive/UBS/S2/VHDL/Projet VHDL Polar Encoder/Vivado/jalon_1/vivado.log
+Vivado journal file location: 	C:/Users/Jose Antonio/Google Drive/UBS/S2/VHDL/Projet VHDL Polar Encoder/Vivado/jalon_1/vivado.jou
+Engine tmp dir: 	C:/Users/Jose Antonio/Google Drive/UBS/S2/VHDL/Projet VHDL Polar Encoder/Vivado/jalon_1/.Xil/Vivado-8368-DESKTOP-7GAUGUL
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.3
+XILINX_SDK: C:/Xilinx/SDK/2018.3
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 270 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// WARNING: HEventQueue.dispatchEvent() is taking  4295 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3715 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2353 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  3747 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 278 MB. GUI used memory: 43 MB. Current time: 2/13/19, 11:43:07 AM CET
+// Opening Vivado Project: C:\Users\Jose Antonio\Google Drive\UBS\S2\VHDL\Projet VHDL Polar Encoder\Vivado\jalon_1\jalon_1.xpr. Version: Vivado v2018.3 
+// WARNING: HEventQueue.dispatchEvent() is taking  1234 ms.
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  3652 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1021 ms.
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  6298 ms.
+// Tcl Message: open_project {C:/Users/Jose Antonio/Google Drive/UBS/S2/VHDL/Projet VHDL Polar Encoder/Vivado/jalon_1/jalon_1.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Jose Antonio/Google Drive/UBS/S2/VHDL/Projet VHDL Polar Encoder/Vivado/jalon_1' INFO: [Project 1-313] Project file moved from 'C:/VIVADO_TESTS/jalon_1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 9738 ms. Increasing delay to 3000 ms.
+// [GUI Memory]: 75 MB (+76436kb) [00:03:37]
+// [Engine Memory]: 338 MB (+202897kb) [00:03:37]
+// [GUI Memory]: 89 MB (+10708kb) [00:03:40]
+// [Engine Memory]: 365 MB (+10615kb) [00:03:48]
+// [Engine Memory]: 384 MB (+768kb) [00:03:56]
+// WARNING: HEventQueue.dispatchEvent() is taking  3933 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 15084 ms. Increasing delay to 4000 ms.
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bx)
+// WARNING: HEventQueue.dispatchEvent() is taking  3962 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1320 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1333 ms.
+// [GUI Memory]: 103 MB (+9359kb) [00:04:14]
+// Project name: jalon_1; location: C:/Users/Jose Antonio/Google Drive/UBS/S2/VHDL/Projet VHDL Polar Encoder/Vivado/jalon_1; part: xc7a35tcpg236-1
+// WARNING: HEventQueue.dispatchEvent() is taking  1301 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:01:00 ; elapsed = 00:01:22 . Memory (MB): peak = 667.191 ; gain = 84.203 
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1082ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1086 ms.
+// Elapsed time: 12 seconds
+dismissDialog("Open Project"); // bx (cp)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 8459 ms. Increasing delay to 5000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 980ms to process. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1217 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2808 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3439 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1260 ms. Increasing delay to 3780 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4193 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 8521 ms. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  5782 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 233ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4311 ms. Increasing delay to 12933 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5294 ms. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 19 ms. Decreasing delay to 2019 ms.
+// [Engine Memory]: 403 MB (+218kb) [00:05:31]
+// [GUI Memory]: 109 MB (+1638kb) [00:07:53]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2188 ms. Increasing delay to 6564 ms.

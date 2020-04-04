@@ -1,0 +1,667 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Mar 27 00:52:57 2019
+# Process ID: 8636
+# Current directory: C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.runs/synth_1
+# Command line: vivado.exe -log toplevel.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source toplevel.tcl
+# Log file: C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.runs/synth_1/toplevel.vds
+# Journal file: C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source toplevel.tcl -notrace
+Command: synth_design -top toplevel -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9864 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 363.277 ; gain = 101.535
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'toplevel' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/top_level.vhd:16]
+	Parameter g_CLKS_PER_BIT bound to: 10416 - type: integer 
+	Parameter g_CLKS_PER_BIT bound to: 10416 - type: integer 
+INFO: [Synth 8-3491] module 'UART_RX' declared at 'C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/v9/reception.vhd:5' bound to instance 'L_UART_RX' of component 'UART_RX' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/top_level.vhd:124]
+INFO: [Synth 8-638] synthesizing module 'UART_RX' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/v9/reception.vhd:14]
+	Parameter g_CLKS_PER_BIT bound to: 10416 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element tempSk_reg was removed.  [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/v9/reception.vhd:112]
+INFO: [Synth 8-256] done synthesizing module 'UART_RX' (1#1) [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/v9/reception.vhd:14]
+INFO: [Synth 8-3491] module 'controle' declared at 'C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/controle.vhd:4' bound to instance 'Lcontrole' of component 'controle' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/top_level.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'controle' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/controle.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'controle' (2#1) [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/controle.vhd:13]
+INFO: [Synth 8-3491] module 'Fbits' declared at 'C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/fbits.vhd:10' bound to instance 'L_Fbits' of component 'Fbits' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/top_level.vhd:126]
+INFO: [Synth 8-638] synthesizing module 'Fbits' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/fbits.vhd:18]
+INFO: [Synth 8-3491] module 'rom_Q' declared at 'C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/rom_Q.vhd:5' bound to instance 't_rom_Q' of component 'rom_Q' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/fbits.vhd:32]
+INFO: [Synth 8-638] synthesizing module 'rom_Q' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/rom_Q.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'rom_Q' (3#1) [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/rom_Q.vhd:10]
+WARNING: [Synth 8-614] signal 'k' is read in the process but is not in the sensitivity list [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/fbits.vhd:34]
+WARNING: [Synth 8-614] signal 'n' is read in the process but is not in the sensitivity list [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/fbits.vhd:34]
+WARNING: [Synth 8-614] signal 'enable_end' is read in the process but is not in the sensitivity list [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/fbits.vhd:34]
+WARNING: [Synth 8-614] signal 'SaddERAM' is read in the process but is not in the sensitivity list [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/fbits.vhd:34]
+WARNING: [Synth 8-614] signal 'SaddLRAM' is read in the process but is not in the sensitivity list [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/fbits.vhd:34]
+WARNING: [Synth 8-614] signal 'SraddLRAM' is read in the process but is not in the sensitivity list [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/fbits.vhd:34]
+WARNING: [Synth 8-614] signal 'Sreset' is read in the process but is not in the sensitivity list [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/fbits.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'Fbits' (4#1) [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/fbits.vhd:18]
+INFO: [Synth 8-3491] module 'Hadamard' declared at 'C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/HadamardCom.vhd:5' bound to instance 'L_Hadamard' of component 'Hadamard' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/top_level.vhd:127]
+INFO: [Synth 8-638] synthesizing module 'Hadamard' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/HadamardCom.vhd:16]
+WARNING: [Synth 8-614] signal 'logM' is read in the process but is not in the sensitivity list [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/HadamardCom.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'Hadamard' (5#1) [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/HadamardCom.vhd:16]
+INFO: [Synth 8-3491] module 'ram_encodage' declared at 'C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/ram_encodage.vhd:6' bound to instance 'L_RAM_encod' of component 'ram_encodage' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/top_level.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'ram_encodage' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/ram_encodage.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'ram_encodage' (6#1) [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/ram_encodage.vhd:16]
+INFO: [Synth 8-3491] module 'ram_reception' declared at 'C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/ram_reception.vhd:6' bound to instance 'L_RAM_recep' of component 'ram_reception' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/top_level.vhd:130]
+INFO: [Synth 8-638] synthesizing module 'ram_reception' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/ram_reception.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'ram_reception' (7#1) [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/ram_reception.vhd:17]
+	Parameter g_CLKS_PER_BIT bound to: 10416 - type: integer 
+INFO: [Synth 8-3491] module 'UART_TX' declared at 'C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/transmit.vhd:18' bound to instance 'L_UART_TX' of component 'UART_TX' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/top_level.vhd:131]
+INFO: [Synth 8-638] synthesizing module 'UART_TX' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/transmit.vhd:31]
+	Parameter g_CLKS_PER_BIT bound to: 10416 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/transmit.vhd:51]
+WARNING: [Synth 8-614] signal 'n' is read in the process but is not in the sensitivity list [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/transmit.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'UART_TX' (8#1) [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/transmit.vhd:31]
+WARNING: [Synth 8-3848] Net outputMsg2 in module/entity toplevel does not have driver. [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/top_level.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'toplevel' (9#1) [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/top_level.vhd:16]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[31]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[30]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[29]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[28]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[27]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[26]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[25]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[24]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[23]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[22]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[21]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[20]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[19]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[18]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[17]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[16]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[15]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[14]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[13]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[12]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[11]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[10]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port w_addr_rec[9]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[31]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[30]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[29]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[28]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[27]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[26]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[25]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[24]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[23]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[22]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[21]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[20]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[19]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[18]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[17]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[16]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[15]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[14]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[13]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[12]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[11]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[10]
+WARNING: [Synth 8-3331] design ram_reception has unconnected port r_addr_rec[9]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[31]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[30]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[29]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[28]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[27]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[26]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[25]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[24]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[23]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[22]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[21]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[20]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[19]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[18]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[17]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[16]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[15]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[14]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[13]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[12]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[11]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[10]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_fb[9]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[31]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[30]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[29]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[28]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[27]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[26]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[25]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[24]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[23]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[22]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[21]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[20]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[19]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[18]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[17]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[16]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[15]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[14]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[13]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[12]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[11]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[10]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port w_addr_enc_H[9]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port r_addr_enc_T[31]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port r_addr_enc_T[30]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port r_addr_enc_T[29]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port r_addr_enc_T[28]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port r_addr_enc_T[27]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port r_addr_enc_T[26]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port r_addr_enc_T[25]
+WARNING: [Synth 8-3331] design ram_encodage has unconnected port r_addr_enc_T[24]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 427.223 ; gain = 165.480
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 427.223 ; gain = 165.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 427.223 ; gain = 165.480
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/constrs_1/imports/new/constraints.xdc]
+Finished Parsing XDC File [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/constrs_1/imports/new/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/constrs_1/imports/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/toplevel_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/toplevel_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 779.965 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 779.965 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 779.965 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 779.965 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:40 ; elapsed = 00:00:45 . Memory (MB): peak = 779.965 ; gain = 518.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:40 ; elapsed = 00:00:45 . Memory (MB): peak = 779.965 ; gain = 518.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:45 . Memory (MB): peak = 779.965 ; gain = 518.223
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "r_Bit_Index0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "compteur_general0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_Bit_Index0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "compteur_general0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_SM_Main" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_SM_Main" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_SM_Main" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "compteur_general" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enable_recp" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'reset_hadamard_reg' into 'reset_fbits_reg' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/controle.vhd:27]
+INFO: [Synth 8-802] inferred FSM for state register 'setat_reg' in module 'controle'
+INFO: [Synth 8-5544] ROM "start_reception" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "setat" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "setat" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "setat" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'l_reg[31:0]' into 'SraddLRAM_reg[31:0]' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/fbits.vhd:45]
+INFO: [Synth 8-802] inferred FSM for state register 'setat_reg' in module 'Fbits'
+INFO: [Synth 8-5544] ROM "setat" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "setat" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/HadamardCom.vhd:44]
+INFO: [Synth 8-802] inferred FSM for state register 'Setat_reg' in module 'Hadamard'
+INFO: [Synth 8-5545] ROM "Setat" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "Setat" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Setat" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/transmit.vhd:57]
+INFO: [Synth 8-5544] ROM "end_T0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "stransmite_enable0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "vcompteur0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               reception |                            00001 |                              000
+                   fbits |                            00010 |                              001
+                hadamard |                            00100 |                              010
+                transmit |                            01000 |                              011
+                     fin |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'setat_reg' using encoding 'one-hot' in module 'controle'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 attente |                              000 |                              000
+                   zeros |                              001 |                              001
+                 synchro |                              010 |                              010
+                     uns |                              011 |                              011
+                     fin |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'setat_reg' using encoding 'sequential' in module 'Fbits'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      st |                             0000 |                             0000
+               s0lecture |                             0001 |                             0001
+                   s0att |                             0010 |                             0010
+             s0ecriture1 |                             0011 |                             0011
+             s0ecriture2 |                             0100 |                             0100
+                      s1 |                             0101 |                             0101
+               s2lecture |                             0110 |                             0110
+                   s2att |                             0111 |                             0111
+              s2ecriture |                             1000 |                             1000
+                     fin |                             1001 |                             1001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'Setat_reg' using encoding 'sequential' in module 'Hadamard'
+WARNING: [Synth 8-327] inferring latch for variable 'debutProcess_reg' [C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.srcs/sources_1/imports/tmp/HadamardCom.vhd:29]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:47 ; elapsed = 00:00:52 . Memory (MB): peak = 779.965 ; gain = 518.223
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 18    
+	   3 Input     32 Bit       Adders := 5     
+	   4 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 3     
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 23    
+	   2 Input      3 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	              257 Bit    Registers := 2     
+	               32 Bit    Registers := 17    
+	               14 Bit    Registers := 1     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 4     
+	                3 Bit    Registers := 4     
+	                1 Bit    Registers := 23    
++---Muxes : 
+	   2 Input    257 Bit        Muxes := 4     
+	   5 Input     32 Bit        Muxes := 6     
+	   2 Input     32 Bit        Muxes := 6     
+	  10 Input     32 Bit        Muxes := 10    
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 2     
+	   7 Input     14 Bit        Muxes := 1     
+	   6 Input      9 Bit        Muxes := 128   
+	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   6 Input      8 Bit        Muxes := 87    
+	   6 Input      7 Bit        Muxes := 26    
+	   6 Input      6 Bit        Muxes := 6     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   6 Input      5 Bit        Muxes := 4     
+	   6 Input      4 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	   2 Input      3 Bit        Muxes := 9     
+	   5 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 21    
+	   7 Input      1 Bit        Muxes := 13    
+	   6 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 20    
+	  10 Input      1 Bit        Muxes := 12    
+	   8 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module UART_RX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               14 Bit    Registers := 1     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 2     
+	   7 Input     14 Bit        Muxes := 1     
+	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   7 Input      1 Bit        Muxes := 8     
+	   6 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 1     
+Module controle 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   5 Input      1 Bit        Muxes := 6     
+Module rom_Q 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      9 Bit        Muxes := 128   
+	   6 Input      8 Bit        Muxes := 87    
+	   6 Input      7 Bit        Muxes := 26    
+	   6 Input      6 Bit        Muxes := 6     
+	   6 Input      5 Bit        Muxes := 4     
+	   6 Input      4 Bit        Muxes := 1     
+Module Fbits 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 6     
+	   3 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 7     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   5 Input     32 Bit        Muxes := 6     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   5 Input      1 Bit        Muxes := 14    
+Module Hadamard 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 5     
+	   3 Input     32 Bit       Adders := 3     
+	   4 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 7     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	  10 Input     32 Bit        Muxes := 10    
+	  10 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 2     
+	  10 Input      1 Bit        Muxes := 12    
+Module ram_encodage 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 13    
++---Registers : 
+	              257 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input    257 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 11    
+Module ram_reception 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 9     
++---Registers : 
+	              257 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input    257 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module UART_TX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	   3 Input      3 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 3     
+	   8 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "L_UART_RX/" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-3886] merging instance 'L_UART_RX/add_recep_reg[2]' (FDE) to 'L_UART_RX/add_recep_reg[1]'
+INFO: [Synth 8-3886] merging instance 'L_UART_RX/add_recep_reg[1]' (FDE) to 'L_UART_RX/add_recep_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L_UART_RX/add_recep_reg[0] )
+WARNING: [Synth 8-3332] Sequential element (Lcontrole/FSM_onehot_setat_reg[4]) is unused and will be removed from module toplevel.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:34 ; elapsed = 00:02:42 . Memory (MB): peak = 785.719 ; gain = 523.977
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:00 ; elapsed = 00:03:09 . Memory (MB): peak = 798.500 ; gain = 536.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:03:09 ; elapsed = 00:03:18 . Memory (MB): peak = 829.035 ; gain = 567.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:16 ; elapsed = 00:03:25 . Memory (MB): peak = 857.203 ; gain = 595.461
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5365] Flop L_Hadamard/j_reg[31] is being inverted and renamed to L_Hadamard/j_reg[31]_inv.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:21 ; elapsed = 00:03:30 . Memory (MB): peak = 857.203 ; gain = 595.461
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:22 ; elapsed = 00:03:31 . Memory (MB): peak = 857.203 ; gain = 595.461
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:23 ; elapsed = 00:03:32 . Memory (MB): peak = 857.203 ; gain = 595.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:23 ; elapsed = 00:03:32 . Memory (MB): peak = 857.203 ; gain = 595.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:24 ; elapsed = 00:03:33 . Memory (MB): peak = 857.203 ; gain = 595.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:24 ; elapsed = 00:03:33 . Memory (MB): peak = 857.203 ; gain = 595.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   194|
+|3     |LUT1   |    73|
+|4     |LUT2   |   352|
+|5     |LUT3   |   340|
+|6     |LUT4   |   235|
+|7     |LUT5   |   319|
+|8     |LUT6   |  1308|
+|9     |MUXF7  |   287|
+|10    |MUXF8  |   125|
+|11    |FDCE   |   251|
+|12    |FDPE   |   554|
+|13    |FDRE   |   247|
+|14    |FDSE   |     4|
+|15    |LD     |     1|
+|16    |LDC    |    31|
+|17    |IBUF   |     3|
+|18    |OBUF   |     9|
+|19    |OBUFT  |     8|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------+--------------+------+
+|      |Instance      |Module        |Cells |
++------+--------------+--------------+------+
+|1     |top           |              |  4342|
+|2     |  L_Fbits     |Fbits         |   814|
+|3     |    t_rom_Q   |rom_Q         |   201|
+|4     |  L_Hadamard  |Hadamard      |   868|
+|5     |  L_RAM_encod |ram_encodage  |  1095|
+|6     |  L_RAM_recep |ram_reception |   378|
+|7     |  L_UART_RX   |UART_RX       |   882|
+|8     |  L_UART_TX   |UART_TX       |   205|
+|9     |  Lcontrole   |controle      |    79|
++------+--------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:24 ; elapsed = 00:03:33 . Memory (MB): peak = 857.203 ; gain = 595.461
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 248 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:52 ; elapsed = 00:03:11 . Memory (MB): peak = 857.203 ; gain = 242.719
+Synthesis Optimization Complete : Time (s): cpu = 00:03:24 ; elapsed = 00:03:33 . Memory (MB): peak = 857.203 ; gain = 595.461
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 638 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 857.203 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  LD => LDCE (inverted pins: G): 1 instances
+  LDC => LDCE: 31 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+76 Infos, 113 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:31 ; elapsed = 00:03:41 . Memory (MB): peak = 857.203 ; gain = 608.605
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 857.203 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/VIVADO_TESTS/jalonFinal_joliMot - vivado/jalonFinal_joliMot - vivado.runs/synth_1/toplevel.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file toplevel_utilization_synth.rpt -pb toplevel_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 27 00:56:54 2019...

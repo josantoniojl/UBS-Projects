@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../jalon_1.srcs/sources_1/imports/Downloads/XversY.vhd" \
+"../../../../jalon_1.srcs/sources_1/imports/Downloads/fbits.vhd" \
+"../../../../jalon_1.srcs/sources_1/imports/Downloads/PolarEncoder.vhd" \
+
+# Do not sort compile order
+nosort

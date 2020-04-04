@@ -1,0 +1,13 @@
+Paramètres de codage : 
+
+N = 8
+K = 5
+
+Message originel : 
+
+z
+
+
+Message encodé :
+
+? @?

@@ -1,0 +1,10 @@
+C:\Users\ThOmA\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\ThOmA\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\ThOmA\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\ThOmA\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Codes_Polaires.Fenetre_Encod.resources
+C:\Users\ThOmA\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Application_Code_Polaire.exe.config
+C:\Users\ThOmA\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Application_Code_Polaire.exe
+C:\Users\ThOmA\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Application_Code_Polaire.pdb
+C:\Users\ThOmA\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Application_Code_Polaire.Properties.Resources.resources
+C:\Users\ThOmA\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Application_Code_Polaire.exe
+C:\Users\ThOmA\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Application_Code_Polaire.pdb

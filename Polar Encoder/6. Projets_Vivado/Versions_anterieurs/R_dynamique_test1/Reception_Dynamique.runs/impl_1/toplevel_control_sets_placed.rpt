@@ -1,0 +1,115 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Mar 24 18:41:21 2019
+| Host         : DESKTOP-7GAUGUL running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file toplevel_control_sets_placed.rpt
+| Design       : toplevel
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    45 |
+| Unused register locations in slices containing registers |    47 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      4 |            1 |
+|      5 |            1 |
+|      6 |            2 |
+|      7 |            4 |
+|      8 |           29 |
+|      9 |            4 |
+|    16+ |            4 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              36 |           16 |
+| No           | No                    | Yes                    |               5 |            3 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              36 |           13 |
+| Yes          | No                    | Yes                    |             252 |           81 |
+| Yes          | Yes                   | No                     |             120 |           33 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+-----------------------------------------+-------------------------------------+------------------+----------------+
+|  Clock Signal  |              Enable Signal              |           Set/Reset Signal          | Slice Load Count | Bel Load Count |
++----------------+-----------------------------------------+-------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG | L_Reception/r_Clk_Count[13]_i_2_n_0     |                                     |                2 |              4 |
+|  clk_IBUF_BUFG |                                         | btn0_IBUF                           |                3 |              5 |
+|  clk_IBUF_BUFG | L_Reception/add_recep[8]_i_1_n_0        |                                     |                2 |              6 |
+|  clk_IBUF_BUFG | L_Reception/stop[5]_i_2_n_0             | L_Reception/compteur_donnees        |                2 |              6 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[5]_6          | btn0_IBUF                           |                1 |              7 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[8]_0          | btn0_IBUF                           |                2 |              7 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[8]_15         | btn0_IBUF                           |                3 |              7 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[8]_10         | btn0_IBUF                           |                3 |              7 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[5]_7          | btn0_IBUF                           |                3 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[5]_5          | btn0_IBUF                           |                3 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[5]_2          | btn0_IBUF                           |                2 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[5]_0          | btn0_IBUF                           |                3 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[5]_8          | btn0_IBUF                           |                2 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[5]_9          | btn0_IBUF                           |                3 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[6]_0          | btn0_IBUF                           |                3 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[6]_2          | btn0_IBUF                           |                2 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[6]_3          | btn0_IBUF                           |                4 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[7]_0          | btn0_IBUF                           |                1 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[5]_10         | btn0_IBUF                           |                4 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[6]_1          | btn0_IBUF                           |                2 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[5]_1          | btn0_IBUF                           |                3 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[8]_14         | btn0_IBUF                           |                2 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[5]_3          | btn0_IBUF                           |                3 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[8]_7          | btn0_IBUF                           |                3 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[8]_11         | btn0_IBUF                           |                3 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[8]_1          | btn0_IBUF                           |                3 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[8]_5          | btn0_IBUF                           |                1 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[8]_2          | btn0_IBUF                           |                2 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[8]_4          | btn0_IBUF                           |                3 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[8]_9          | btn0_IBUF                           |                2 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[8]_12         | btn0_IBUF                           |                2 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[8]_8          | btn0_IBUF                           |                2 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[8]_6          | btn0_IBUF                           |                3 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[8]_13         | btn0_IBUF                           |                2 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[8]_3          | btn0_IBUF                           |                3 |              8 |
+|  clk_IBUF_BUFG | L_test/sadd_lec0                        |                                     |                3 |              8 |
+|  clk_IBUF_BUFG | L_Reception/add_recep_reg[5]_4          | btn0_IBUF                           |                3 |              8 |
+|  clk_IBUF_BUFG | L_Reception/r_Clk_Count[13]_i_2_n_0     | L_Reception/r_Clk_Count[13]_i_1_n_0 |                5 |              9 |
+|  clk_IBUF_BUFG | L_Reception/D[0]                        | L_test/sadd_lec0                    |                2 |              9 |
+|  clk_IBUF_BUFG | L_test/Ssk_0                            |                                     |                3 |              9 |
+|  clk_IBUF_BUFG | L_Reception/stop[5]_i_2_n_0             |                                     |                3 |              9 |
+|  clk_IBUF_BUFG | L_Reception/add_recep[8]_i_1_n_0        | L_Reception/compteur_donnees        |                8 |             32 |
+|  clk_IBUF_BUFG | L_Reception/compteur_general[0]_i_1_n_0 | L_Reception/compteur_donnees        |                8 |             32 |
+|  clk_IBUF_BUFG | L_test/adresse                          | L_test/sadd_lec0                    |                8 |             32 |
+|  clk_IBUF_BUFG |                                         |                                     |               16 |             36 |
++----------------+-----------------------------------------+-------------------------------------+------------------+----------------+
+
+

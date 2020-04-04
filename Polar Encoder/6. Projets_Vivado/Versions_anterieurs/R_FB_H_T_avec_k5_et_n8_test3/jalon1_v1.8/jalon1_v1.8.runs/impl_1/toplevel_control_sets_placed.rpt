@@ -1,0 +1,80 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Mar  3 20:51:09 2019
+| Host         : LAPTOP-VKIB3AB9 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file toplevel_control_sets_placed.rpt
+| Design       : toplevel
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    11 |
+| Unused register locations in slices containing registers |    24 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|      7 |            1 |
+|      8 |            1 |
+|     13 |            1 |
+|     14 |            2 |
+|    16+ |            4 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              22 |           10 |
+| No           | No                    | Yes                    |              20 |            9 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              24 |            7 |
+| Yes          | No                    | Yes                    |              80 |           18 |
+| Yes          | Yes                   | No                     |              14 |            4 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+------------------------------+-----------------------+------------------+----------------+
+|  Clock Signal  |         Enable Signal        |    Set/Reset Signal   | Slice Load Count | Bel Load Count |
++----------------+------------------------------+-----------------------+------------------+----------------+
+|  clk_IBUF_BUFG | transmit/o_TX_Serial_i_1_n_1 |                       |                1 |              1 |
+|  clk_IBUF_BUFG | Lcontrole/Startreception     |                       |                1 |              1 |
+|  clk_IBUF_BUFG |                              | btn0_IBUF             |                2 |              7 |
+|  clk_IBUF_BUFG | transmit/r_TX_Data_0         |                       |                1 |              8 |
+|  clk_IBUF_BUFG |                              | Lcontrole/AR[0]       |                7 |             13 |
+|  clk_IBUF_BUFG | reception/r_Clk_Count        |                       |                4 |             14 |
+|  clk_IBUF_BUFG | transmit/r_Clk_Count         | transmit/r_Clk_Count0 |                4 |             14 |
+|  clk_IBUF_BUFG | Lcontrole/E[0]               | Lcontrole/AR[0]       |                4 |             16 |
+|  clk_IBUF_BUFG |                              |                       |               10 |             22 |
+|  clk_IBUF_BUFG | Lfbits/i_0                   | Lcontrole/AR[0]       |                7 |             32 |
+|  clk_IBUF_BUFG | Lfbits/j_1                   | Lcontrole/AR[0]       |                7 |             32 |
++----------------+------------------------------+-----------------------+------------------+----------------+
+
+
