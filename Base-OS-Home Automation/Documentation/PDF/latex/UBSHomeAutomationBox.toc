@@ -1,0 +1,18 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}D\IeC {\'e}veloppement}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Configuration du syst\IeC {\`e}me pour la machine cible \IeC {\`a} utiliser}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Creation et configuration d\IeC {\textquoteright }un layer et une recette image}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}Configuration du local.conf:}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Compilation et test de l\IeC {\textquoteright }image}{5}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Compilation de l'image}{5}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Test de l'image sur QEMU}{6}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Test de l'image sur la machine cible}{6}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Cr\IeC {\'e}ation et compilation d'une application}{7}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Cr\IeC {\'e}ation d'une application}{7}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Compilation d'une application}{9}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Cr\IeC {\'e}ation et initialisation d\IeC {\textquoteright }un service}{10}{section.2.6}
+\contentsline {section}{\numberline {2.7}D\IeC {\'e}marrage d'un distribution Linux via Emmc}{11}{section.2.7}
+\contentsline {chapter}{\numberline {3}Resultats}{13}{chapter.3}
+\contentsline {chapter}{\numberline {4}Conclusions}{15}{chapter.4}
+\contentsline {chapter}{\numberline {5}R\IeC {\'e}f\IeC {\'e}rences}{17}{chapter.5}
