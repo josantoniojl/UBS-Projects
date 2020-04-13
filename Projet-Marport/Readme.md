@@ -1,7 +1,7 @@
 # Projet Python
 ## Deep Learning (Tensorflow)
 
-Dans cet espace, il est possible de trouver le rapport du projet réalisé avec la société Marport. Le code ne peut pas être fourni pour des raisons de confidentialité, cependant, le document explique les points développés pour le projet.
+Dans cet espace, il est possible de trouver le rapport du projet réalisé avec la société Marport. Le code ne peut pas être fourni pour des raisons de confidentialité, cependant, le document explique les points développés pour le projet est disponible.
 
 Marport est une entreprise qui conçoit et fabrique des capteurs de contrôle, de capture et de surveillance des filets, des sondeurs, des profileurs de courant et des sonars pour la flotte de pêche mondiale. Afin d’innover et de créer de nouveaux produits, l’entreprise travaille en partenariat avec l’UBS.
 
